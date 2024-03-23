@@ -8,8 +8,11 @@ import Nav from "./Nav";
 const Root = () => {
     return (
         <div>
-              <Nav></Nav>
+
+             <div>
+             <Nav></Nav>
              <Outlet></Outlet>
+             </div>
          
              <Footer></Footer>
 
